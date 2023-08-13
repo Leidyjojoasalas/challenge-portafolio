@@ -1,0 +1,145 @@
+.experience {
+    background-image: linear-gradient(to right, #d3d6ff 0%, #f3eae8 80%);
+    height: auto;
+}
+
+.experience__title {
+    font-family: Raleway;
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 4rem;
+    color: #353535;
+}
+
+.experience__contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.experience__box {
+    justify-content: center;
+    display: flex;
+    background: #ffffff;
+    box-shadow: 0 2px 4px #00000033;
+    border-radius: 5px;
+    margin: 0 0.5rem 4rem 0;
+}
+
+.experience__info {
+    width: 18.5rem;
+    text-align: center;
+    /*centrar el texto*/
+}
+
+.experience__title2 {
+    font-family: Raleway;
+    font-weight: bold;
+    padding-bottom: 1rem;
+    color: #353535;
+    font-size: 1.3rem;
+    margin-top: 50%;
+}
+
+.experience__text {
+    font-family: Raleway;
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+    color: #353535;
+}
+
+.experience__repo {
+    padding-right: 1rem;
+}
+
+.experiencia__botton--repo,
+.experience__botton--demo {
+
+    transition: transform 0.3s;
+    cursor: pointer;
+    border:1px solid #714d9a; border-radius: 5px; box-shadow: 0 2px 4px #00000033;
+    /* Ajusta el ancho del botón según sea necesario */
+    height: 40px;
+    /* Ajusta la altura del botón según sea necesario */
+    font-size: 1.2rem;
+    
+}
+
+.experiencia__botton--repo {
+    color: #714d9a;
+
+}
+
+.experiencia__botton--repo:hover {
+    transform: scale(1.05);
+    color: #4f2c78;
+}
+
+.experience__botton--demo {
+    background: #714d9a;
+}
+
+.experience__botton--demo:hover {
+    transform: scale(1.05);
+    background-color: #4f2c78;
+}
+
+
+@media screen and (min-width:0) {
+    .experience__contenedor {
+        padding: 2rem 3rem;
+    }
+
+    .experience__box {
+        height: 22rem;
+    }
+
+    .experience__img {
+        max-width: 95%;
+        max-height: 100%
+    }
+
+   
+
+}
+
+@media screen and (min-width:768px) {
+    .experience__contenedor {
+        padding: 2rem 3rem;
+    }
+    .experience__box {
+        width: 35rem;
+        height: 30rem;
+    }
+  
+}
+
+@media screen and (min-width:992px) {
+
+    .experience__img {
+        max-width: 90%;
+        max-height: 100%
+    }
+
+    .experience__contenedor {
+        padding: 2rem 10rem;
+    }
+}
+
+@media screen and (min-width:1418px) {
+   
+    .experience__contenedor {
+        padding: 2rem 10rem;
+    }
+}
+
+@media screen and (max-width: 1205px) {
+    .experience__info {
+        flex-wrap: wrap;
+    }
+
+    .experience__title2 {
+        margin-top: 0; /* Cambia el margin-top a 0 */
+    }
+}

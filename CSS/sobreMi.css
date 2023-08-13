@@ -1,0 +1,46 @@
+.sobreMi {
+    background-image: linear-gradient(to right, #d3d6ff 0%, #f3eae8 80%);
+    border: solid #714d9a;
+}
+
+
+
+.titulo__sobreMi {
+    font-family: raleway;
+    font-weight: bold;
+    margin: 2rem 0;
+    color: #353535;
+    font-size: 1.8rem;
+}
+
+.texto__sobreMi {
+    text-align: justify;
+    line-height: 1.5;
+    font-family: raleway;
+    color: #464646;
+    font-size: 1.2rem;
+}
+
+
+
+@media screen and (min-width:0) {
+    .contenedor__sobreMi {
+        padding: 2rem 3rem;
+    }
+
+}
+
+
+@media screen and (min-width:768px) {
+    .contenedor__sobreMi {
+        padding: 2rem 3rem;
+    }
+
+}
+
+@media screen and (min-width:992px) {
+    .contenedor__sobreMi {
+        padding: 2rem 10rem;
+    }
+
+}

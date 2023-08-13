@@ -1,0 +1,177 @@
+.titulo {
+    background: #f5f5f5;
+}
+
+.contenedor {
+    width: 100%;
+
+}
+
+.contenedor__texto {
+    width: 70%;
+
+}
+
+.titulo__principal {
+    font-family: 'Raleway', sans-serif;
+    padding: 1.5rem 0;
+    font-weight: 900;
+    line-height: 1.5;
+    text-align: center;
+    background-image: linear-gradient(to right, #6c76f8 0%, #f3cdc4 80%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.texto {
+    font-family: raleway;
+    line-height: 1.5;
+    text-align: center;
+    /*para que se centre el texto*/
+    color: #464646;
+}
+
+.redes__Sociales {
+    display: flex;
+    justify-content: left;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+
+.redes__item {
+    margin: 0 1.5rem 1.5rem 0;
+    font-size: 1.2rem;
+    color: #464646;
+}
+
+.redes__item:hover {
+    transform: scale(1.1);
+}
+
+.redes__link {
+    display: flex;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background: #f3eae8;
+    box-shadow: 0 2px 4px #00000033;
+    transition: background-color 0.3s ease;
+}
+
+.redes__link:hover {
+    background: #d1c5c2;
+}
+
+.redes__img {
+    display: flex;
+    margin-left: 0.5rem;
+    height: 1.5rem;
+}
+
+
+.foto {
+    padding: 2rem;
+    display: flex;
+    width: auto;
+    margin: auto;
+}
+
+.foto__leidy {
+    border-radius: 50%;
+    position: relative;
+    height: 100%;
+    min-width: 100%;
+    border: 2px dashed #714d9a;
+}
+
+
+
+@media (min-width: 0) {
+    .titulo {
+        padding: 0 3rem;
+    }
+
+    .titulo__principal {
+        font-size: 2.3rem;
+    }
+
+    .titulo__principal2 {
+        font-size: 2rem;
+    }
+
+
+
+    .contenedor__texto {
+        width: 100%;
+    }
+
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+
+    .foto {
+        height: 15rem;
+        padding-bottom: 0;
+    }
+
+    .texto {
+        font-size: 1.2rem;
+    }
+}
+
+
+@media (min-width: 769px) {
+    .titulo {
+        background: #f5f5f5;
+        padding: 0 3rem;
+    }
+
+
+    .titulo__principal {
+        font-size: 3rem;
+    }
+
+    .titulo__principal2 {
+        font-size: 2.6rem;
+    }
+
+    .contenedor {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .foto {
+        height: 18rem;
+        padding: 2rem;
+    }
+
+    .texto {
+        font-size: 1.2rem;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .titulo {
+        background: #f5f5f5;
+        padding: 4rem 10rem;
+    }
+
+
+    .contenedor {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .foto {
+        height: 20rem;
+        padding: 2rem;
+    }
+
+    .texto {
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,107 @@
+.hobbie {
+    background-image: linear-gradient(to right, #d3d6ff 0%, #f3eae8 80%);
+    height: auto;
+
+}
+
+.hobbies__title {
+    font-family: Raleway;
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 2rem;
+    color: #353535;
+}
+
+.hobbies__contenedor {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.hobbies {
+    height: 6rem;
+    width: 16rem;
+    display: block;
+    background: #f3eae8;
+    margin: 2rem 2rem 0 0;
+    border-radius: 5px;
+    background:#f3eae8;
+    box-shadow: 0 2px 4px #00000033;
+    transition: background-color 0.3s ease;
+    position: relative;
+    /* Es necesario establecerlo como relativo para que la posición absoluta de la imagen se base en este contenedor.*/
+}
+
+.hobbies:hover{
+    background: #d1c5c2;
+}
+
+.hobbies__imagenes {
+    height: 35px;
+    width: 35px;
+    background-repeat: no-repeat;
+    /*para que no se dupliq la imagen*/
+    background-size: cover;
+    /*la imagen se ajusta al contenedor*/
+    position: absolute;
+    /* Esta propiedad establece la posición de la imagen como absoluta en relación con su primer ancestro posicionado, en este caso, el <div> que tiene la posición relativa establecida.*/
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*se utiliza para mover la imagen hacia arriba y hacia la izquierda,Esto garantiza que la imagen quede perfectamente centrada*/
+
+}
+
+.hobbies__imagenes--GYM {
+    background-image: url("../Imagenes/gym.png");
+}
+
+.hobbies__imagenes--leer {
+    background-image: url("../Imagenes/libro.png");
+}
+
+.hobbies__imagenes--escuchar {
+    background-image: url("../Imagenes/auriculares.png");
+}
+
+.hobbies__imagenes--pasear {
+    background-image: url("../Imagenes/naturaleza.png");
+}
+
+.hobbies__name {
+    width: 100%;
+    font-family: Raleway;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 1rem;
+    color: #353535;
+}
+
+@media screen and (min-width:0) {
+
+    .hobbies__contenedor {
+        padding: 2rem 3rem;
+
+    }
+}
+
+@media screen and (min-width:768px) {
+
+    .hobbies__contenedor {
+        padding: 2rem 3rem;
+
+    }
+}
+
+@media screen and (min-width:992px) {
+
+    .hobbies__contenedor {
+        padding: 2rem 10rem;
+
+    }
+
+}

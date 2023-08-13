@@ -1,0 +1,232 @@
+.academica {
+    background: #f5f5f5f5;
+    height: auto;
+}
+
+.academic__title {
+    font-family: Raleway;
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 4rem;
+    color: #353535;
+}
+
+.academic__contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.academic__box {
+
+    display: block;
+    background: #ffffff;
+    position: relative;
+    margin: 2rem 2rem 0 0;
+    box-shadow: 0 2px 4px #00000033;
+    border-radius: 5px;
+
+}
+
+.academic__imagenes {
+
+    background-repeat: no-repeat;
+    /*para que no se dupliq la imagen*/
+    background-size: contain;
+    /*la imagen se ajusta al contenedor*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-position: center;
+    filter: grayscale(1);
+    transition: all .3s ease-in-out;
+}
+
+.academic__imagenes:hover {
+    filter: grayscale(0);
+}
+
+
+.academic__imagenes--USCO {
+    background-image: url(../Imagenes/academica/usco.jpeg);
+}
+
+
+.academic__imagenes--GRANCOLOMBIANO {
+    background-image: url(../Imagenes/academica/Politecnico\ grancolombiano.jpeg);
+}
+
+.academic__imagenes--AMERICANO {
+    background-image: url(../Imagenes/academica/ingles.png);
+
+
+}
+
+.academic__imagenes--ALURA1 {
+    background-image: url(../Imagenes/academica/principiante\ en\ programacion.png);
+
+}
+
+.academic__imagenes--SENA {
+    background-image: url(../Imagenes/academica/sena.jpeg);
+
+}
+
+.academic__imagenes--ALURA2 {
+    background-image: url(../Imagenes/academica/ONE.png);
+
+
+}
+
+.academic__list {
+    padding: 0.5rem;
+    position: absolute;
+    bottom: 0;
+}
+
+.academic__item {
+    width: 100%;
+    font-family: Raleway;
+    text-align: left;
+
+}
+
+.academic__name {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #353535;
+}
+
+.academic__text {
+
+    font-style: italic;
+    padding-top: 0.25rem;
+    font-size: 0.8rem;
+    color: #353535;
+}
+
+@media screen and (min-width:0) {
+    .academic__box {
+        height: 17rem;
+        width: 16rem;
+    }
+
+    .academic__imagenes {
+        height: 10rem;
+        width: 12rem;
+    }
+
+    .academic__contenedor {
+        padding: 2rem 3rem;
+    }
+
+    .academic__imagenes {
+        filter: grayscale(0);
+        transition: all .3s ease-in-out;
+    }
+
+}
+
+@media screen and (min-width:768px) {
+    .academic__box {
+        height: 17rem;
+        width: 16rem;
+    }
+
+    .academic__imagenes {
+        height: 10rem;
+        width: 12rem;
+    }
+
+    .academic__contenedor {
+        padding: 2rem 3rem;
+    }
+
+    .academic__imagenes {
+        filter: grayscale(0);
+        transition: all .3s ease-in-out;
+    }
+}
+
+
+@media screen and (min-width:992px) {
+    .academic__contenedor {
+        padding: 2rem 10rem;
+    }
+
+
+    .academic__box {
+        height: 17rem;
+        width: 16rem;
+    }
+
+    .academic__imagenes {
+        height: 10rem;
+        width: 12rem;
+    }
+
+    .academic__imagenes {
+        filter: grayscale(1);
+        transition: all .3s ease-in-out;
+    }
+
+    .academic__imagenes:hover {
+        filter: grayscale(0);
+    }
+
+}
+
+@media screen and (min-width:1139px) {
+    .academic__box {
+        height: 22rem;
+        width: 24.25rem;
+    }
+
+    .academic__imagenes {
+        height: 14rem;
+        width: 18rem;
+
+    }
+
+    .academic__contenedor {
+        padding: 2rem 10rem;
+    }
+
+    .academic__imagenes {
+        filter: grayscale(1);
+        transition: all .3s ease-in-out;
+    }
+
+    .academic__imagenes:hover {
+        filter: grayscale(0);
+    }
+
+}
+
+@media screen and (min-width:1405px) {
+    .academic__box {
+        height: 22rem;
+        width: 32.5rem;
+    }
+
+    .academic__imagenes {
+        height: 14rem;
+        width: 18rem;
+
+    }
+
+    .academic__contenedor {
+        padding: 2rem 10rem;
+    }
+
+    .academic__imagenes {
+        filter: grayscale(1);
+        transition: all .3s ease-in-out;
+    }
+
+    .academic__imagenes:hover {
+        filter: grayscale(0);
+    }
+}

@@ -1,0 +1,23 @@
+.footer {
+    background-image: linear-gradient(to right, #d3d6ff 0%, #f3eae8 80%);
+}
+
+.footer__rodape {
+    padding: 2rem 0;
+    text-align: center;
+    color: #353535;
+}
+
+@media (min-width: 0) {
+    .footer__rodape {
+        font-size: 1rem;
+    }
+}
+
+
+
+@media (min-width: 768px) {
+    .footer__rodape {
+        font-size: 1.3rem;
+    }
+}
